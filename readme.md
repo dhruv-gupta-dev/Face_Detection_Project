@@ -44,8 +44,9 @@ python face_detection.py
 
 * `Saved Faces: Check the saved_faces/ directory to see crops of detected faces.`
 
+
+## 📂 Project Structure
 ```bash
-📂 Project Structure
 Plaintext
 ├── models/                  # Caffe model files (prototxt & caffemodel)
 ├── saved_faces/             # Auto-generated folder for face crops
@@ -53,10 +54,10 @@ Plaintext
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
-```bash
-🧠 How it Works
+
+## 🧠 How it Works
 The application uses OpenCV's DNN module to load a pre-trained Single Shot Detector (SSD) model with a ResNet-10 architecture. 
 It resizes video frames to 300x300 blobs, passes them through the network, and filters out weak predictions based on the confidence threshold.
 
-Built by Dhruv Gupta
-```
+
+* `Built by Dhruv Gupta`
