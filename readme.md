@@ -38,7 +38,7 @@ A lightweight, real-time face detection application built with Python and OpenCV
 Run the main script:
 ```bash
 python face_detection.py
-
+```
 
 Press q to quit the application.
 
