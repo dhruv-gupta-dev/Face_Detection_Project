@@ -17,8 +17,8 @@ A lightweight, real-time face detection application built with Python and OpenCV
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/dhruv-gupta-dev/Face_Detection_Project.git](https://github.com/dhruv-gupta-dev/Face_Detection_Project.git)
-    cd YOUR-REPO-NAME
+    git clone https://github.com/dhruv-gupta-dev/Face_Detection_Project.git
+    cd Face_Detection_Project
     ```
 
 2.  **Install Dependencies**
@@ -40,10 +40,11 @@ Run the main script:
 python face_detection.py
 ```
 
-Press q to quit the application.
+* `Press q to quit the application.`
 
-Saved Faces: Check the saved_faces/ directory to see crops of detected faces.
+* `Saved Faces: Check the saved_faces/ directory to see crops of detected faces.`
 
+```bash
 📂 Project Structure
 Plaintext
 ├── models/                  # Caffe model files (prototxt & caffemodel)
@@ -51,9 +52,10 @@ Plaintext
 ├── face_detection.py        # Main application script
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
-
+```
 
 🧠 How it Works
-The application uses OpenCV's DNN module to load a pre-trained Single Shot Detector (SSD) model with a ResNet-10 architecture. It resizes video frames to 300x300 blobs, passes them through the network, and filters out weak predictions based on the confidence threshold.
+The application uses OpenCV's DNN module to load a pre-trained Single Shot Detector (SSD) model with a ResNet-10 architecture. 
+It resizes video frames to 300x300 blobs, passes them through the network, and filters out weak predictions based on the confidence threshold.
 
 Built by Dhruv Gupta
